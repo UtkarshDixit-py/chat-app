@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat app</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Chat App</h1>
+        </header>
+        <main>
+            <form action="chatInterface.html">
+                <div>
+                    <label for="username">Username</label>
+                    <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        placeholder="Enter username..."
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="room">Room</label>
+                    <select name="room" id="room">
+                        <option value="Channel1">Channel 1</option>
+                        <option value="Channel2">Channel 2</option>
+                        <option value="Channel3">Channel 3</option>
+                    </select>
+                </div>
+                <button type="submit">Join Chat</button>
+            </form>
+        </main>
+    </div>
+    
+</body>
+</html>
